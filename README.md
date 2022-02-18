@@ -8,7 +8,9 @@ In the future, I hope to gain enough knowledge to be able to add additional feat
 
 ## Timeline for Project
 -------------------------------------------------------------------------
--
--
--
--
+-Add base structure using HTML (4 hours)(2/28)
+-Add basic CSS (3 hours)(3/10)
+-Add extra HTML (3 hours)(3/17)
+-Add base JavaScript (5 hours)(3/25)
+-Add extra CSS (2 hours)(3/25)
+-Added final JavaScript (2 hours)(4/1)
