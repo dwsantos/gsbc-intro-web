@@ -7,9 +7,9 @@ In the future, I hope to gain enough knowledge to be able to add additional feat
 
 ## Timeline for Project
 -------------------------------------------------------------------------
+- Researched subject matter for website (3 hours)(2/25)
 - Add base structure using HTML (4 hours)(2/28)
-- Add basic CSS (3 hours)(3/10)
-- Add extra HTML (3 hours)(3/17)
-- Add base JavaScript (5 hours)(3/25)
-- Add extra CSS (2 hours)(3/25)
-- Added final JavaScript (2 hours)(4/1)
+- Add CSS Style Sheet (3 hours)(3/10)
+- Add JavaScript for basic user interaction (5 hours)(3/25)
+- Added JavaScript for extra features (2 hours)(4/1)
+- Complete the website (4/5)
