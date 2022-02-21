@@ -5,6 +5,8 @@ One website that I appreciate the design of is [nvbc.org](https://www.nvbc.org).
 
 In the future, I hope to be able to create and edit a website with ease. I want this website to be clean, simple, easy to use, but have cool and fasinating features that still effectively fulfills its purpose and presents the product well.
 
+This is a sample paragraph
+
 ## Timeline for Project
 -------------------------------------------------------------------------
 - Researched subject matter for website (3 hours)(2/25)
