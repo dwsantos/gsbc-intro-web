@@ -98,7 +98,10 @@ text-decoration: underline;
     height: 200px;
     width: 200px;
     overflow: hidden;}
-
+    img {
+        height: 100%;
+        width: 100%;
+      }
 .column {
     float: left;
     width: 50%;
