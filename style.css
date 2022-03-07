@@ -97,7 +97,9 @@ text-decoration: underline;
     border-width: 25px;
     height: 200px;
     width: 200px;
-    overflow: hidden;}
+    overflow: hidden;
+    align-content: center;    
+}
     img {
         height: 100%;
         width: 100%;
@@ -107,11 +109,11 @@ text-decoration: underline;
     width: 50%;
     }
     .left {
-        width: 40%;
+        width: 25%;
       }
       
       .right {
-        width: 60%;
+        width: 75%;
       }
     /* Clear floats after the columns */
     .row:after {
