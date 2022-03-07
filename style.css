@@ -89,3 +89,24 @@ background-color: transparent;
 text-decoration: underline;
 }
 
+.circle {
+    border-color: #666 #1c87c9;
+    border-image: none;
+    border-radius: 50% 50% 50% 50%;
+    border-style: solid;
+    border-width: 25px;
+    height: 200px;
+    width: 200px;
+    overflow: hidden;}
+
+.column {
+    float: left;
+    width: 50%;
+    }
+    
+    /* Clear floats after the columns */
+    .row:after {
+    content: "";
+    display: table;
+    clear: both;
+    }
