@@ -1,1 +1,10 @@
-
+h1 {
+    text-align: center;
+    font-size: 90px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:darkslateblue;
+}
+h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: darkslateblue;
+}
