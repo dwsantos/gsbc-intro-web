@@ -5,6 +5,12 @@
         font-color: black;
         text-align: center;
     }
+    h2{
+        font-size: 75px;
+        font-family:'Times New Roman', Times, serif;
+        font-color: black;
+        text-align: center;
+    }
 
 /* Navigational Bar*/
     /* Add a black background color to the top navigation */
