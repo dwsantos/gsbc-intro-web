@@ -2,13 +2,13 @@
     h1{
         font-size: 90px;
         font-family:'Times New Roman', Times, serif;
-        font-color: black;
+        color: #000;
         text-align: center;
     }
     h2{
         font-size: 75px;
         font-family:'Times New Roman', Times, serif;
-        font-color: black;
+        color: #000;
         text-align: center;
     }
 
