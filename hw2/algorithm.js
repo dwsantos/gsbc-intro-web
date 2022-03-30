@@ -3,7 +3,6 @@ const numbers =[];
 for (let i=0; i<=100; i++){
 numbers[i]=Math.floor(Math.random() * 1000);
 }
-// Maybe change array to array of Ints instead? IDK
 
 
 //for (let i=0; i<=100; i++){
@@ -11,13 +10,12 @@ numbers[i]=Math.floor(Math.random() * 1000);
 //    target.innerHTML += "<p>, </p>";
 let nLen = numbers.length;
 
-let text = "<p>, </p>";
+let text = "";
 for (let i = 0; i < nLen; i++) {
-  text += "<p>, </p>" + numbers[i] + "<p>, </p>";
-}
-text += "<p>, </p>";
+  text += numbers[i] + ", ";
+  document.getElementById("numbers").innerHTML = text;
 
-document.getElementById("numbers").innerHTML = text;
+}
 //}
 
 
