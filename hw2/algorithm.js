@@ -22,8 +22,8 @@ document.getElementById("").innerHTML = text;
 }
 
 function largestNumber(){
-numbers.sort();
-document.getElementById("largest_number").innerHTML = numbers.pop();
+  numbers.sort(function(a, b){return a - b});
+  document.getElementById("largest_number").innerHTML = numbers.pop();
 
 }
 
