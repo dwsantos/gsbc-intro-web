@@ -3,6 +3,7 @@ const numbers =[];
 for (let i=0; i<=100; i++){
 numbers[i]=Math.floor(Math.random() * 1000);
 }
+// Maybe change array to array of Ints instead? IDK
 
 function iteration(){
 //for (let i=0; i<=100; i++){
@@ -22,7 +23,7 @@ document.getElementById("").innerHTML = text;
 
 function largestNumber(){
 number.sort(function(a, b){return a - b})
-numbers.pop();
+document.getElementById("").innerHTML = numbers.pop();
 
 }
 
@@ -32,4 +33,6 @@ function sum(){
 for (let i=0; i<nLen; i++){
     s = s + numbers[i];
 }
+document.getElementById("").innerHTML = s;
+
 }
