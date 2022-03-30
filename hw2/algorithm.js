@@ -22,8 +22,8 @@ document.getElementById("").innerHTML = text;
 }
 
 function largestNumber(){
-number.sort(function(a, b){return a - b})
-document.getElementById("").innerHTML = numbers.pop();
+numbers.sort();
+document.getElementById("largest_number").innerHTML = numbers.pop();
 
 }
 
@@ -33,6 +33,6 @@ function sum(){
 for (let i=0; i<nLen; i++){
     s = s + numbers[i];
 }
-document.getElementById("").innerHTML = s;
+document.getElementById("sum").innerHTML = s;
 
 }
