@@ -38,5 +38,6 @@ function sum(numbers){
 for (let i=0; i<nmLen; i++){
     s = s + numbers[i];
 }
-document.getElementById("sum").innerHTML = s;
+return s;
+//document.getElementById("sum").innerHTML = s;
 }
