@@ -20,14 +20,14 @@ for (let i = 0; i < nLen; i++) {
     text+=numbers[i] + ".";
   }
 }
-  document.getElementById("numbers").innerHTML = text;
+ // document.getElementById("numbers").innerHTML = text;
 
 
 //}
 
 
   numbers.sort(function(a, b){return a - b});
-  document.getElementById("largest_number").innerHTML = numbers.pop();
+//  document.getElementById("largest_number").innerHTML = numbers.pop();
 
 
 
@@ -36,5 +36,5 @@ for (let i = 0; i < nLen; i++) {
 for (let i=0; i<nmLen; i++){
     s = s + numbers[i];
 }
-document.getElementById("sum").innerHTML = s;
+//document.getElementById("sum").innerHTML = s;
 
