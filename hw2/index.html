@@ -14,7 +14,11 @@
         <a class="active" href="dwsantos.github.io/gsbc-intro-web/hw2">HW2</a>
         <a class="" href="dwsantos.github.io/gsbc-intro-web/project">Project</a>
     </div>
-    <script src="algorithm.js"></script>
+    <script src="algorithm.js">
+      document.getElementById("numbers").innerHTML = text;
+      document.getElementById("largest_number").innerHTML = numbers.pop();
+      document.getElementById("sum").innerHTML = s;
+    </script>
 <!--Figure out how to use ID element for JS and HTML in links -->
 </br>
 <h1>Homework 2</h1>
@@ -23,7 +27,6 @@
 <button onClick="window.location.reload();">Generate Different Numbers</button>
 <h2>Array of Integer</h2>
     <p>This is an array of random numbers: </p>
-    document.getElementById("numbers");
     <p id = "numbers"> </p>
 <h2>Largest Number</h2>
 <p>The largest number is: </p>

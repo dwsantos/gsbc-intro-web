@@ -13,9 +13,16 @@ let nLen = numbers.length;
 let text = "";
 for (let i = 0; i < nLen; i++) {
   text += numbers[i] + ", ";
+  if(i == 100){
+    text += numbers[i] + ", and "
+    }
+    if(i ==100){
+    text+=numbers[i] + ".";
+  }
+}
   document.getElementById("numbers").innerHTML = text;
 
-}
+
 //}
 
 
