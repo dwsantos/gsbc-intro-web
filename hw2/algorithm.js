@@ -8,7 +8,7 @@ numbers[i]=Math.floor(Math.random() * 1000);
 //for (let i=0; i<=100; i++){
 //    document.getElementById("demo").innerHTML = numbers[i];
 //    target.innerHTML += "<p>, </p>";
-function num_Array(numbers){
+
 let nLen = numbers.length;
 
 let text = "";
@@ -21,17 +21,15 @@ for (let i = 0; i < nLen; i++) {
     text+=numbers[i] + ".";
   }
 }
-  return text;
-}
- //document.getElementById("numbers").innerHTML = text;
+ document.getElementById("numbers").innerHTML = text;
 
 
 //}
 
 function kPop(numbers){
   numbers.sort(function(a, b){return a - b});
-//document.getElementById("largest_number").innerHTML = numbers.pop();
-return numbers.pop();
+document.getElementById("largest_number").innerHTML = numbers.pop();
+
 }
 
 function sum(numbers){
@@ -40,6 +38,5 @@ function sum(numbers){
 for (let i=0; i<nmLen; i++){
     s = s + numbers[i];
 }
-return s;
-//document.getElementById("sum").innerHTML = s;
+document.getElementById("sum").innerHTML = s;
 }
