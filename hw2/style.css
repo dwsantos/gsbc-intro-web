@@ -17,6 +17,13 @@
         color: #000;
     }
 
+    body{
+
+        padding-right: 90px;
+        padding-bottom: 90px;
+        padding-left: 45px;
+    }
+
 /* Navigational Bar*/
     /* Add a black background color to the top navigation */
     .topnav {
