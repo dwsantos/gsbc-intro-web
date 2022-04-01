@@ -26,17 +26,16 @@ for (let i = 0; i < nLen; i++) {
 
 //}
 
-function kPop(numbers){
   numbers.sort(function(a, b){return a - b});
 document.getElementById("largest_number").innerHTML = numbers.pop();
 
-}
 
-function sum(numbers){
+
+
     let s=0;
     let nmLen=numbers.length;
 for (let i=0; i<nmLen; i++){
     s = s + numbers[i];
 }
 document.getElementById("sum").innerHTML = s;
-}
+
