@@ -21,15 +21,17 @@ for (let i = 0; i < nLen; i++) {
     text+=numbers[i] + ".";
   }
 }
+  return text;
 }
- document.getElementById("numbers").innerHTML = text;
+ //document.getElementById("numbers").innerHTML = text;
 
 
 //}
 
 function kPop(numbers){
   numbers.sort(function(a, b){return a - b});
-document.getElementById("largest_number").innerHTML = numbers.pop();
+//document.getElementById("largest_number").innerHTML = numbers.pop();
+return numbers.pop();
 }
 
 function sum(numbers){
