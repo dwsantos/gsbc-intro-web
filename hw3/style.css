@@ -1,6 +1,6 @@
 /*Text*/
 h1, h2, h3, h4, h5, h6 {
-    font-family: sans-serif;
+    font-family: 'Courier New', Courier, monospace;
     }
     
     h1 {
@@ -11,11 +11,11 @@ h1, h2, h3, h4, h5, h6 {
     
     h2 {
         font-size: 1.31em;
-        color: royalblue;
+        color: lime;
     }
     p {
     font-size:medium;
-    color:white;
+    color:lime;
     }
     
     code {
