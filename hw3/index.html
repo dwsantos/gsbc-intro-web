@@ -4,8 +4,24 @@
 		<meta charset="utf-8">
 		<title>Homework 3</title>
         <link rel="stylesheet" href="style.css">
+		<style>
+			.container {  
+				width: 300px;  
+				height: 300px;  
+				display: flex;  
+				justify-content: center;  
+				align-items: center;  
+			}  
+
+			button {  
+			background-color: lime;  
+			color: black;  
+			font-size: 25px;  
+			margin: auto;  
+			}  
+		</style>
 	</head>
-	<body>
+	<body style="background-color:black;">
         <div class="topnav">
 			<a class="" href="https://dwsantos.github.io/gsbc-intro-web/">Index</a>
 			<a href="https://dwsantos.github.io/gsbc-intro-web/hw1/index.html">HW1</a>
@@ -17,8 +33,10 @@
 	<div>
 		<img src="map.png"/>
 	</div>
-	<button onclick="window.location.href='https://dwsantos.github.io/gsbc-intro-web/hw3/room1.html';">
-		Click Here
-	  </button>	
+	<div class="container">
+		<button onclick="window.location.href='https://dwsantos.github.io/gsbc-intro-web/hw3/room1.html';">
+			Click Here
+		</button>	
+	</div>
     </body>
 </html>
