@@ -135,3 +135,9 @@ h1, h2, h3, h4, h5, h6 {
           text-align: right;
           border: 0;
         }
+        button {  
+          background-color: lime;  
+          color: black;  
+          font-size: 25px;  
+          margin: auto;  
+          }  
