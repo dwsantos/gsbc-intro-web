@@ -23,6 +23,12 @@ h1, h2, h3, h4, h5, h6 {
      font-weight: bold;
         color:rgb(8, 153, 238);
     }
+    input.right{
+      float:right;
+    }
+    input.left{
+      float:left;
+    }
     
     .fancyText {
        font-family: 'STIX Two Text', 'Times New Roman', Times, serif;
