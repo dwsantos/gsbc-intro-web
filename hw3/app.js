@@ -1,7 +1,6 @@
     function towel() {
      var answer = window.prompt("What gets wetter as it dries? (Warning: Text is Case Sensitive. Please Use All Lowercase Letters) Enter your answer:")
-
-        if (answer == "towel" || answer == "a towel" || answer == "A Towel") {
+        if (answer.toLowerCase() == "towel" || answer.toLowerCase() == "a towel") {
             window.location.replace("https://dwsantos.github.io/gsbc-intro-web/hw3/room1.html");
         }
         else{
