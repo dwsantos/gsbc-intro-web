@@ -40,7 +40,7 @@
     function finalQ() {
      var answer = window.prompt("Enter your answer: ")
 
-        if (answer.toLowerCase() == "Jesus" || answer.toLowerCase() == "a Jesus") {
+        if (answer.toLowerCase() == "jesus" || answer.toLowerCase() == "a jesus") {
             window.location.replace("https://dwsantos.github.io/gsbc-intro-web/hw3/index.html");
         }
         else{
