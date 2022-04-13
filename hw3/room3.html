@@ -22,12 +22,17 @@
 		</row>
 
 		<h2>To Go back to the main question, answer this question. What has one eye and cannot see?</h2>
-		<form action="/action_page.php">
-			<label for="fname">First name:</label><br>
-			<input type="text" id="fname" name="fname" value="John"><br>
-			<label for="lname">Last name:</label><br>
-			<input type="text" id="lname" name="lname" value="Doe"><br><br>
-			<input type="submit" value="Submit">
-		  </form> 
+		<script>
+			var name = window.prompt("Enter your name: ")
+			if (name.isEqualtoIgnoreCase("needle")) {
+				window.location.replace("http://www.w3schools.com");
+			}
+			else{
+				alert("Wrong answer. Try again. ");
+			}
+			//alert("Your name is " + name);
+
+
+		</script>
 	</body>
 </html>
