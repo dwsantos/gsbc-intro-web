@@ -38,6 +38,16 @@
             alert("Wrong answer. (Hint: answer is case sensitive. Please use all lowercase letters.) Try again. ");
     }
 }
+    function finalQ() {
+     var answer = window.prompt("(Warning: Text is Case Sensitive. Please Use All Lowercase Letters) Enter your answer: ")
+
+        if (answer == "Jesus" || answer == "a Jesus" || answer == "A Jesus") {
+            window.location.replace("https://dwsantos.github.io/gsbc-intro-web/hw3/index.html");
+        }
+        else{
+            alert("Wrong answer. (Hint: answer is case sensitive. Please use all lowercase letters.) Try again. ");
+    }
+}
 function userList(){
 class TodoApp extends React.Component {
   constructor(props) {
