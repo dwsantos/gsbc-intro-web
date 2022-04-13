@@ -1,7 +1,7 @@
     function towel() {
      var answer = window.prompt("What gets wetter as it dries?")
         if (answer.toLowerCase() == "towel" || answer.toLowerCase() == "a towel") {
-            window.location.replace("https://dwsantos.github.io/gsbc-intro-web/hw3/room1.html");
+            window.location.replace("https://dwsantos.github.io/gsbc-intro-web/hw3/room0.html");
         }
         else{
             alert("Wrong answer. Try again. ");
@@ -11,7 +11,7 @@
      var answer = window.prompt("Enter your answer: ")
 
         if (answer.toLowerCase() == "incorrect") {
-            window.location.replace("https://dwsantos.github.io/gsbc-intro-web/hw3/room4.html");
+            window.location.replace("https://dwsantos.github.io/gsbc-intro-web/hw3/room3.html");
         }
         else{
             alert("Wrong answer. Try again. ");
@@ -21,7 +21,7 @@
      var answer = window.prompt("Enter your answer: ")
 
         if (answer.toLowerCase() == "placeholder" || answer.toLowerCase() == "a placeholder") {
-            window.location.replace("https://dwsantos.github.io/gsbc-intro-web/hw3/room7.html");
+            window.location.replace("https://dwsantos.github.io/gsbc-intro-web/hw3/room6.html");
         }
         else{
             alert("Wrong answer. Try again. ");
