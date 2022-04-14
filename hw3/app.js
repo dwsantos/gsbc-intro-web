@@ -54,22 +54,11 @@
             if (answer1.toLowerCase() == "incorrectly" || "incorrectly "){
                      var answer2 = window.prompt("I have branches, but no fruit, trunk or leaves. What am I?")
                      if (answer2.toLowerCase() == "bank" || "a bank" || "bank " || "a bank ") {
-                                 var answer = window.prompt("What can run but never walks, has a mouth but never talks, has a head but never weeps, has a bed but never sleeps?")
-                                 if (answer.toLowerCase() == "river" || "a river" || "a river " || "river ") {
+                                 var answer3 = window.prompt("What can run but never walks, has a mouth but never talks, has a head but never weeps, has a bed but never sleeps?")
+                                 if (answer3.toLowerCase() == "river" || "a river" || "a river " || "river ") {
                                         alert("Hint: The towel dries water off you. The answer is famously spelled incorrectly. It has two banks. It is a river. Also, Tom Sawyer.");
-                                      }
-                                 else{
-                                    alert("Wrong answer. Try again. ");
-                                     }
-                            }
-                    else{
-                        alert("Wrong answer. Try again. ");
-                         }
-            }
-            else{
-                alert("Wrong answer. Try again. ");
+                                      }}}}
+             else{
+                 alert("Wrong answer. Try again. ");
              }
-        else{
-            alert("Wrong answer. Try again. ");
-    }
 }
