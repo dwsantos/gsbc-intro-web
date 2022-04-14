@@ -10,7 +10,7 @@
     function incorrect() {
      var answer = window.prompt("Enter your answer: ")
 
-        if (answer.toLowerCase() == "incorrect") {
+        if (answer.toLowerCase() == "incorrectly") {
             window.location.replace("https://dwsantos.github.io/gsbc-intro-web/hw3/room3.html");
         }
         else{
