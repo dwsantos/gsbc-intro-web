@@ -41,7 +41,7 @@
      var answer = window.prompt("What has five eyes, but cannot see?")
 
         if (answer.toLowerCase() == "the mississippi river" || "the mississippi river " || "mississippi river" || "mississippi river ") {
-            window.location.replace("https://dwsantos.github.io/gsbc-intro-web/hw3/index.html");
+            window.location.replace("https://dwsantos.github.io/gsbc-intro-web/hw3/room10.html");
         }
         else{
             alert("Wrong answer. Try again. ");
