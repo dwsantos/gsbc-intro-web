@@ -56,7 +56,7 @@
                      if (answer2.toLowerCase() == "bank" || "a bank" || "bank " || "a bank ") {
                                  var answer3 = window.prompt("What can run but never walks, has a mouth but never talks, has a head but never weeps, has a bed but never sleeps?")
                                  if (answer3.toLowerCase() == "river" || "a river" || "a river " || "river ") {
-                                        alert("Hint: The towel dries water off you. The answer is famously spelled incorrectly. It has two banks. It is a river. Also, Tom Sawyer.");
+                                        alert("It is two words long. The second word is river. It is the longest river in the United States. It is often spelled incorrectly, and this river, which splits the US into two, is often associated with Mark Twain and Tom Sawyer.");
                                       }}}}
              else{
                  alert("Wrong answer. Try again. ");
